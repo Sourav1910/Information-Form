@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information Form</title>
+	<style type="text/css">
+	body
+	{
+		background:url(https://i.redd.it/d0dh3mqujny01.jpg);
+	}
+	#div1
+	{
+		margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 100px;
+    	box-sizing: border-box;
+    	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    	width: 25em;
+    	padding:20px;
+    	background:rgba(0,0,0,0.8);
+    	opacity: 40%;
+    	border-radius: 10px;
+
+	}
+	h1
+	{
+		text-align: center;
+	}
+		
+	.box
+	{
+		width:100%;
+		border:none; 
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline: none;
+		font-size: 16px;
+		margin-bottom: 15px;
+		color:#fff;
+	}
+	.divisions
+	{
+		position: relative;
+		margin-top: 20px;
+	}
+	.border
+	{
+		border:none; 
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline: none;
+		font-size: 16px;
+		margin-bottom: 15px;
+		color:#fff;
+	}
+	#div1 label
+	{
+		padding: 10px 0;
+		font-size: 25px;
+		color: #03a9f4;
+
+	}
+	h1
+	{
+		color:#03a9f4;
+	}
+	.menu
+	{
+		border:none; 
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline: none;
+		font-size: 16px;
+		margin-bottom: 15px;
+		color:grey;
+	}
+	.sub
+	{	border:none; 
+		background-color: #03a9f4;
+		color:#fff;
+		padding: 10px 20px;
+		position: relative;
+		left:40%;
+
+
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<div id="div1">
+	<h1>Personal Information</h1>
+	<form>
+		<div>
+			<label>Name:</label><br><input class="border" type="text" placeholder="First"><input class="border" type="text" placeholder="Last">
+
+		</div>
+		<div class="divisions">
+			<label>Address:</label><br><input class="box"type="text" placeholder="Address Line 1">
+			<br><input class="box"  type="text" placeholder="Address Line 2">
+			<br><input class="border" type="text" placeholder="City">
+			
+				<select class="menu">
+					<option id="opt1"value=”” disabled selected>State</option>
+					<option>Uttar Pradesh</option>
+					<option>Gujarat</option>
+					<option>Rajasthan</option>
+					<option>Maharashtra</option>
+					<option>Tamil Nadu</option>
+				</select>
+		</div>
+		<div class="divisions">		
+			<label>Phone</label><br><input class="border" type="text" >
+		</div>
+		<div class="divisions">	
+			<label>Email</label><br><input class="border" type="text" >
+		</div>
+		<div class="divisions">
+			<label>Ocupation</label><br><input class="border" type="text">
+		</div>
+		<div class="divisions">
+			<label>Comments or Questions</label><br><input class="border" type="text">
+		</div>
+		<div>
+			<input class="sub" type="submit">
+		</div>
+		
+	</form>
+
+	</div>
+</body>
+</html>
